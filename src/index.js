@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles.css";
 
 import clsx from "clsx";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
