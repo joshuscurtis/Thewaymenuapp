@@ -1,6 +1,5 @@
 {
   "items": [
-//cakes
     {
       "name": "Red Velvet",
       "desc": "a cake...",
@@ -12,7 +11,7 @@
     {
       "name": "Oreo",
       "desc": "",
-      "type":"cakes",
+      "type": "cakes",
       "price": "£2.50",
       "image": "https://www.lifeloveandsugar.com/wp-content/uploads/2015/02/Chocolate-Oreo-Cake2.jpg",
       "forSale": true
@@ -20,30 +19,38 @@
     {
       "name": "Biscoff",
       "desc": "",
-      "type":"cakes",
+      "type": "cakes",
       "price": "£2.20",
       "image": "https://thebeautytype.com/wp-content/uploads/2019/10/biscoff-cake-for-two-lifestyle-blog-thebeautytype.com_.jpg",
       "forSale": true
     },
-//drinks
     {
-    "name": "Flat White",
-    "type": "drinks",
-    "price":"£2.00",
-	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
-    "forSale":true},
-	{
-    "name": "Latte",
-    "type": "drinks",
-    "price":"£2.00",
-	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
-	"forSale":true},
-	{
-//food
-    "name": "Sandwich",
-    "type": "food",
-    "price":"£2.00",
-	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
-	"forSale":true},	
- ]
+      "name": "Flat White",
+      "type": "drinks",
+      "price": "£2.00",
+      "image": "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
+      "forSale": true
+    },
+    {
+      "name": "Latte",
+      "type": "drinks",
+      "price": "£2.00",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_316/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
+      "forSale": true
+    },
+    {
+      "name": "Sandwich",
+      "type": "food",
+      "price": "£2.00",
+      "image": "https://www.simplyrecipes.com/wp-content/uploads/2019/05/EYF-Italian-Grilled-Cheese-LEAD-4.jpg",
+      "forSale": true
+    },
+    {
+      "name": "Coffee and Cake",
+      "type": "specials",
+      "price": "£3.00",
+      "image": "https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/119898128_766856423885400_8457407495510864672_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=1XiGTt8elmAAX905Wab&_nc_tp=18&oh=ed13f02b046c8fd1c7deb26dab044e4a&oe=5F964AF8&dl=1",
+      "forSale": true
+    }
+  ]
 }
