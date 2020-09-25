@@ -51,6 +51,13 @@
       "price": "£3.00",
       "image": "https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/119898128_766856423885400_8457407495510864672_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=1XiGTt8elmAAX905Wab&_nc_tp=18&oh=ed13f02b046c8fd1c7deb26dab044e4a&oe=5F964AF8&dl=1",
       "forSale": true
+    },
+    {
+      "name": "Josh's Breakfast Pancake Stack",
+      "type": "specials",
+      "price": "£5.00",
+      "image": "",
+      "forSale": true
     }
   ]
 }
