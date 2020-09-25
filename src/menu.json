@@ -2,11 +2,12 @@
   "items": [
     {
       "name": "Hannah's Brownie",
-      "desc": "a cake...",
+      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "type": "cakes",
       "price": "£2.00",
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3850414.jpg",
-      "forSale": true
+      "forSale": true,
+      "allegens": "VEGAN, GLUTEN FREE"
     },
     {
       "name": "Victoria Sandwich",
