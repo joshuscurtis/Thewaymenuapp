@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-var jsonData = require('./menu.json');
+var jsonData = require('/menu.json');
 
 
 import Product from './Product';
