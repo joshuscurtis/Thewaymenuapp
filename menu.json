@@ -3,7 +3,7 @@
     {
       "name": "Red Velvet",
       "desc": "a cake...",
-      "type": "cake",
+      "type": "cakes",
       "price": "£2.00",
       "image": "https://cafedelites.com/wp-content/uploads/2018/05/Red-Velvet-Cake-IMAGE-43.jpg",
       "forSale": true
@@ -11,7 +11,7 @@
     {
       "name": "Oreo",
       "desc": "",
-      "type":"cake",
+      "type":"cakes",
       "price": "£2.50",
       "image": "https://www.lifeloveandsugar.com/wp-content/uploads/2015/02/Chocolate-Oreo-Cake2.jpg",
       "forSale": true
@@ -19,7 +19,7 @@
     {
       "name": "Biscoff",
       "desc": "",
-      "type":"cake",
+      "type":"cakes",
       "price": "£2.20",
       "image": "https://thebeautytype.com/wp-content/uploads/2019/10/biscoff-cake-for-two-lifestyle-blog-thebeautytype.com_.jpg",
       "forSale": true
