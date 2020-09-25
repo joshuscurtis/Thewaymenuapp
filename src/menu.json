@@ -1,5 +1,6 @@
 {
   "items": [
+//cakes
     {
       "name": "Red Velvet",
       "desc": "a cake...",
@@ -24,12 +25,25 @@
       "image": "https://thebeautytype.com/wp-content/uploads/2019/10/biscoff-cake-for-two-lifestyle-blog-thebeautytype.com_.jpg",
       "forSale": true
     },
-    
+//drinks
     {
     "name": "Flat White",
     "type": "drinks",
     "price":"£2.00",
-"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
-    "forSale":true} 
+	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
+    "forSale":true},
+	{
+    "name": "Latte",
+    "type": "drinks",
+    "price":"£2.00",
+	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
+	"forSale":true},
+	{
+//food
+    "name": "Sandwich",
+    "type": "food",
+    "price":"£2.00",
+	"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
+	"forSale":true},	
  ]
 }
