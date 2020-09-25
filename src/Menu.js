@@ -1,7 +1,7 @@
 import React from "react";
 
 import Typography from "@material-ui/core/Typography";
-import Card from "@material-ui/core/Card";
+//import Card from "@material-ui/core/Card";
 
 import Product from "./Product";
 export default function ItemBuilder(props) {
@@ -18,6 +18,7 @@ export default function ItemBuilder(props) {
           price={menu[i].price}
           desc={menu[i].desc}
           image={menu[i].image}
+          allegens={menu[i].allegens}
         />
       );
     }

@@ -9,7 +9,7 @@ import CardActions from "@material-ui/core/CardActions";
 import Typography from "@material-ui/core/Typography";
 import { red } from "@material-ui/core/colors";
 import IconButton from "@material-ui/core/IconButton";
-import CakeIcon from "@material-ui/icons/Cake";
+//import CakeIcon from "@material-ui/icons/Cake";
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 10
@@ -71,7 +71,9 @@ export default function RecipeReviewCard(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="share"></IconButton>
+        <Typography className="Product__Allegens" variant="overline" color="textSecondary" component="p">
+          {props.allegens}
+        </Typography>
       </CardActions>
     </Card>
   );

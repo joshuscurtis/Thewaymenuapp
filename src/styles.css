@@ -5,7 +5,11 @@
 }
 
 .Menu__Title {
-  margin-top: 18px;
+  margin-top: 3vh;
   text-align: center;
   text-transform: capitalize;
+}
+
+.Product__Allegens {
+  text-align: center;
 }
