@@ -107,9 +107,22 @@ function PersistentDrawerLeft() {
   
   
   
-  const testTypeClick = () => {
-    setType('cake');
+  const cakesTypeClick = () => {
+    setType('cakes');
   };
+  const drinksTypeClick = () => {
+    setType('drinks');
+};
+  const foodTypeClick = () => {
+    setType('food');
+};
+  const specialsTypeClick = () => {
+    setType('specials');
+};
+  
+  
+  
+  
   return (
 <div>
     <div className={classes.root}>
@@ -152,21 +165,30 @@ function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
-            <ListItem button onClick={testTypeClick}>
+            <ListItem button onClick={cakesTypeClick}>
               <ListItemIcon>
                 <CakeIcon/>
               </ListItemIcon>
-                <ListItemText primary="Cake"/>
+                <ListItemText primary="Cakes"/>
             </ListItem>
-          {['Drinks', 'Food', 'Specials'].map((text, index) => (
-            <ListItem button key={text}>
+			<ListItem button onClick={drinksTypeClick}>
               <ListItemIcon>
-                {index === 0 ? <LocalCafeIcon /> : ''}
-                {index === 1 ? <FastfoodIcon /> : ''}
-                {index === 2 ? <NewReleasesIcon /> : ''}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+                <LocalCafeIcon/>
+              </ListItemIcon>
+                <ListItemText primary="Drinks"/>
+				</ListItem>
+			<ListItem button onClick={foodTypeClick}>
+              <ListItemIcon>
+                <CakeIcon/>
+              </FastfoodIcon>
+                <ListItemText primary="Food"/>
+				</ListItem>			
+			<ListItem button onClick={specialsTypeClick}>
+              <ListItemIcon>
+                <CakeIcon/>
+              </NewReleasesIcon>
+                <ListItemText primary="Specials"/>
+				</ListItem>			
         </List>
       </Drawer>
       <main
