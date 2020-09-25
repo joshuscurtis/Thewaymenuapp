@@ -179,14 +179,14 @@ function PersistentDrawerLeft() {
 				</ListItem>
 			<ListItem button onClick={foodTypeClick}>
               <ListItemIcon>
-                <CakeIcon/>
-              </FastfoodIcon>
+                <FastfoodIcon/>
+              </ListItemIcon>
                 <ListItemText primary="Food"/>
 				</ListItem>			
 			<ListItem button onClick={specialsTypeClick}>
               <ListItemIcon>
-                <CakeIcon/>
-              </NewReleasesIcon>
+                <NewReleasesIcon/>
+              </ListItemIcon>
                 <ListItemText primary="Specials"/>
 				</ListItem>			
         </List>
