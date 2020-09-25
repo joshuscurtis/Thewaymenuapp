@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "name": "Red Velvet",
+      "desc": "a cake...",
+      "type": "cake",
+      "price": "£2.00",
+      "image": "https://cafedelites.com/wp-content/uploads/2018/05/Red-Velvet-Cake-IMAGE-43.jpg",
+      "forSale": true
+    },
+    {
+      "name": "Oreo",
+      "desc": "",
+      "type":"cake",
+      "price": "£2.50",
+      "image": "https://www.lifeloveandsugar.com/wp-content/uploads/2015/02/Chocolate-Oreo-Cake2.jpg",
+      "forSale": true
+    },
+    {
+      "name": "Biscoff",
+      "desc": "",
+      "type":"cake",
+      "price": "£2.20",
+      "image": "https://thebeautytype.com/wp-content/uploads/2019/10/biscoff-cake-for-two-lifestyle-blog-thebeautytype.com_.jpg",
+      "forSale": true
+    },
+    
+    {
+    "name": "Flat White",
+    "type": "drinks",
+    "price":"£2.00",
+"image":"https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
+    "forSale":true} 
+ ]
+}
